@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "polymer": "*",
-    "paper-toggle-button": "*"
+    "paper-toggle-button": "PolymerElements/paper-toggle-button#~v1.3.0"
   },
   "devDependencies": {
     "iron-test-helpers": "*",
