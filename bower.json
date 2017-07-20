@@ -1,0 +1,18 @@
+{
+  "name": "switchable-block",
+  "version": "1.0.0",
+  "description": "Switchable\n\n",
+  "main": "switchable-block.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "dependencies": {
+    "polymer": "*",
+    "paper-toggle-button": "*"
+  },
+  "devDependencies": {
+    "iron-test-helpers": "*",
+    "web-component-tester": "^5.0.0"
+  }
+}

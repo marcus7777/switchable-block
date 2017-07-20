@@ -1,0 +1,20 @@
+<link rel="import" href="../paper-toggle-button/paper-toggle-button.html">
+<link rel="import" href="../polymer/polymer.html">
+<!--
+  `<switchable-block></switchable-block>` Switchable block
+  @demo demo.html
+-->
+<dom-module id="switchable-block">
+  <template>
+    <style>:host {display:block}</style>
+    <paper-toggle-button checked="{{test}}"></paper-toggle-button>
+    <template is="dom-if" if="[[test]]">
+      <slot></slot>
+    </template>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: "switchable-block",
+  })
+</script>
