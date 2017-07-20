@@ -8,7 +8,7 @@
   <template>
     <style>:host {display:block}</style>
     <paper-toggle-button checked="{{test}}"></paper-toggle-button>
-    <template is="dom-if" if="[[test]]">
+    <template is="dom-if" if="[[test]]" restamp>
       <slot></slot>
     </template>
   </template>
