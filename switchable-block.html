@@ -7,8 +7,8 @@
 <dom-module id="switchable-block">
   <template>
     <style>:host {display:block}</style>
-    <paper-toggle-button checked="{{test}}"></paper-toggle-button>
-    <template is="dom-if" if="[[test]]" restamp>
+    <paper-toggle-button checked="{{open}}"></paper-toggle-button>
+    <template is="dom-if" if="[[open]]" restamp>
       <slot></slot>
     </template>
   </template>
